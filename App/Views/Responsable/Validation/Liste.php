@@ -4,10 +4,10 @@
  * $formGrandResponsable
  * $errorsLst
  * $notice
+ * $titre
  */
-$i = true;
 ?>
-<h1><?= _('resp_traite_demandes_titre') ?></h1>
+<h1><?= $titre ?></h1>
 <?php if (!empty($errorsLst)) : ?>
     <div class="alert alert-danger"><?= _('erreur_recommencer') ?> :<ul>
     <?php foreach ($errorsLst as $error) : ?>

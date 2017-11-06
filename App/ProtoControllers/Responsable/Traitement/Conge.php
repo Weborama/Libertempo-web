@@ -13,14 +13,6 @@ class Conge extends \App\ProtoControllers\Responsable\ATraitement
     /**
      * {@inheritDoc}
      */
-    public function getForm()
-    {
-        return '';
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getFormDemandes(array $demandes)
     {
         $i=true;
